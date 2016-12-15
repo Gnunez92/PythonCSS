@@ -9,9 +9,7 @@
 }
 
 .effect3d{
-    border-style: outset;
-    border-left: 2px black;
-    border-top: 2px black;
+    box-shadow:1px 1px 2px black;
 }
 
 .center{
@@ -31,16 +29,28 @@
 }
 
 #header img{
-    margin: 25px 0px 20px 35px;
+    margin: 25px 0px 0px 35px;
     width:300px;
 }
 
-#header p{
-    color: white;
-    margin-left:430px;
-    vertical-align: top;
-    margin-top:5px;
+#header ul{
+    list-style:none;
+    vertical-align:top;
+    display:inline-block;
+    margin: 0px 0 0 350px;
 }
+#header a{
+    color: #ffd92b;
+}
+#header li:nth-child(2){
+    padding-right: 5px;
+    border-right: 2px solid black;
+}
+#header li p{
+    color: white;
+}
+
+
 
 #search{
     height: 45px;
@@ -48,13 +58,29 @@
     background-color: #444444;
     padding: 10px;
     border-radius: 8px;
-    position:absolute;
-    margin-left:-280px;
-    margin-top:30px;
+    display:inline-block;
+    position: absolute;
+    margin-left:-260px;
+    margin-top: 25px;
 }
 #search form{
-    margin-top:13px;
+    margin-top:10px;
     margin-left: 25px;
+}
+
+input[type="text"]{
+    border-style:inset;
+    border: 2px 2px grey;
+    text-align:center;
+    color:grey;
+    height:25px;
+}
+
+input[type=submit]{
+    height:30px;
+    color: #ffffff;
+    background-color: #245076;
+    border-radius:5px;
 }
 #nav{
     background-color: #487ead;
@@ -77,7 +103,7 @@
 #sidenav{
     width: 220px;
     margin-left:60px;
-    margin-top:25px;
+    margin-top:0px;
     display:inline-block;
 }
 #sidenav a{
@@ -90,6 +116,7 @@
 
 #about{
     width:625px;
+    margin-top:10px;
     margin-left:30px;
     display:inline-block;
     vertical-align:top;
@@ -136,7 +163,7 @@ span.orange p{
     text-decoration: none;
 }
 #footer{
-    height:100px;
+    padding: 40px 0 10px 0;
     color: #73a7d5;
     text-align:center;
 }
@@ -151,5 +178,6 @@ span.orange p{
 
 }
 #footer p{
+    margin-top:15px;
     font-size: 10px;
 }
