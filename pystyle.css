@@ -1,0 +1,42 @@
+
+#container{
+    width: 970px;
+    background-color: #3a4592;
+}
+#header *{
+    display: inline-block;
+}
+#header img{
+    margin: 20px 0px 20px 20px;
+    width:300px;
+}
+.bold{
+    color: black;
+    font-weight:bold;
+}
+
+#header p{
+    color: white;
+    margin-left:430px;
+    vertical-align: top;
+    margin-top:5px;
+}
+.effect3d{
+    border-style: outset;
+    border-left: 2px black;
+    border-top: 2px black;
+}
+#search{
+    height: 40px;
+    width: 250px;
+    background-color:grey;
+    padding: 10px;
+    border-radius: 8px;
+    position:absolute;
+    margin-left:-240px;
+    margin-top:30px;
+}
+#search form{
+    margin-top:10px;
+    margin-left: 15px;
+}
